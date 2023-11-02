@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypersonic airport analyzer</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="doc-header">Hypersonic airport analyzer<img src="settings-outline.svg" alt="settings-menu"
+            class="settings" width="35px" height="35px"></header>
+    <div class="intro-modal" id="intro">
+        <div class="modal-content-intro">
+            <h2>Real-time airport situation display</h2>
+            <p>Input weather and NOTAMs for all desired airports and the Hypersonic Airport Analyzer will provide
+                in-depth
+                airport analyses with just one click.</p>
+            <button id="start">Get started!</button>
+        </div>
+    </div>
+    <div class="container">
+        <section class="wx-input">
+            <!--<label for="wx-box">METAR and TAF data:</label>-->
+            <textarea id="wx-box" name="wx" rows="20" cols="100" placeholder="Paste weather data here"
+                required="true"></textarea>
+            <button id="button1" class="submit button1">Submit</button>
+        </section>
+        <section class="notam-input hidden">
+            <!--<label for="wx-box">METAR and TAF data:</label>-->
+            <textarea id="notam-box" name="notam" rows="20" cols="100" placeholder="Paste NOTAM data here"
+                required="true"></textarea>
+            <button id="button3" class="submit button2">Submit</button>
+        </section>
+        <section class="'wx-output" id="output">
+            <!--this is where the added html goes for each report-->
+        </section>
+        <!-- <div>
+            <button id="button2" class="reset hidden">Reset</button>
+        </div> -->
+    </div>
+    <footer class="footer">
+        <button id="button2" class="reset hidden">Reset</button>
+    </footer>
+
+    <script src="script13.js"></script>
+</body>
+
+</html>

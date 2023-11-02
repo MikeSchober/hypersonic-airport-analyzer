@@ -1,0 +1,400 @@
+/*universal selector*/
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+html {
+    background-color: #74BDCB;
+    background-image: linear-gradient(to bottom right, #74BDCB, white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: auto;
+}
+
+.doc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 50px;
+    background-color: #E7F2F8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-variant: small-caps;
+    vertical-align: middle;
+    border: 3px black solid;
+    position: -webkit-sticky;
+    /* abv for Safari */
+    position: sticky;
+    top: 0;
+}
+
+
+body {
+    font-size: 16px;
+    padding: 5px 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+    height: 400px;
+    width: 800px;
+    border: 4px black solid;
+    background-color: whitesmoke;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container button {
+    font-size: 32px;
+    margin-top: 5px;
+    border: 4px black solid;
+    background-color: #36454F;
+    color: whitesmoke;
+
+}
+
+.container button:hover {
+    background-color: whitesmoke;
+    color: #36454F;
+    border: 4px black solid;
+    box-shadow: 5px 10px 15px 2px rgba(0, 0, 0, 0.2), 0 15px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container button:active {
+    background-color: #FFA384;
+    color: black;
+}
+
+
+/*class for hiding the wx input element*/
+.hidden {
+    display: none;
+}
+
+/*classes for approach type styling*/
+.ils {
+    background-color: #F8FAFD;
+}
+
+.gps {
+    background-color: #B4AAA9;
+}
+
+.chart {
+    background-color: #a4a2a8;
+}
+
+.clsd {
+    background-color: black;
+}
+
+/*classes for flt category styling*/
+.vfr {
+    background-color: rgb(195, 195, 214);
+}
+
+.mvfr {
+    background-color: rgb(161, 161, 218);
+}
+
+.ifr {
+    background-color: rgb(106, 106, 216);
+}
+
+.lifr {
+    background-color: rgb(69, 69, 218);
+}
+
+
+/*classes for gust factor styling*/
+.zero {
+    background-color: #B7E0B7;
+}
+
+.one {
+    background-color: #F7C9B6;
+}
+
+.two {
+    background-color: #F1A17E;
+}
+
+/*classes for steady xw criteria styling*/
+.lgt {
+    background-color: #B7E0B7;
+
+    /*#ADFF9E*/
+}
+
+.mdt {
+    background-color: #F7C9B6;
+}
+
+.str {
+    background-color: #F1A17E;
+}
+
+
+/* li {
+    background-color: #EFE7BC;
+    color: black;
+    border: 4px black solid;
+    list-style-type: none;
+    margin: 5px 0px;
+} */
+
+
+/*wind class to decrease font size on only the wind row of the table*/
+.wind {
+    font-size: 12px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 40px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.modal-content {
+    background-color: #E7F2F8;
+    color: black;
+    border: 4px black solid;
+    list-style-type: none;
+    margin: auto;
+    /* z-index: 1;
+    position: fixed; */
+    width: 700px;
+    height: 600px;
+    /* overflow: auto; */
+    padding: 10px 10px 10px 20px;
+
+}
+
+.intro-modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 40px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.modal-content-intro {
+    background-color: #E7F2F8;
+    color: black;
+    border: 4px black solid;
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    /* z-index: 1;
+    position: fixed; */
+    width: 700px;
+    height: 300px;
+    /* overflow: auto; */
+    padding: 70px 10px 0px 10px;
+
+}
+
+.intro-modal p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.intro-modal button {
+    margin-top: 40px;
+    font-size: 24px;
+    margin-top: 5px;
+    border: 4px black solid;
+    background-color: #36454F;
+    color: whitesmoke;
+}
+
+.intro-modal button:hover {
+    background-color: whitesmoke;
+    color: #36454F;
+    border: 4px black solid;
+    box-shadow: 5px 10px 15px 2px rgba(0, 0, 0, 0.2), 0 15px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.intro-modal button:active {
+    background-color: #FFA384;
+    color: black;
+}
+
+/* li h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+
+/* .total-output {
+    width: 800px;
+    background-color: #EFE7BC;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.3), 0px 15px 28px 0px rgba(0, 0, 0, 0.3);
+
+} */
+
+
+table {
+    width: 1200px;
+    /* border-collapse: collapse; */
+    /* overflow-x: auto;
+    overflow-y: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    /* border: 4px solid; */
+    box-shadow: 7px 10px 15px 0px rgba(0, 0, 0, 0.3), 0px 15px 28px 0px rgba(0, 0, 0, 0.3);
+    background-color: #EFE7BC;
+    /* max-width: 800px;
+    min-width: 800px; */
+    table-layout: fixed;
+    font-size: 17px;
+}
+
+/*KEY HERE was table-layout: fixed... keeps same width no matter what*/
+
+td {
+    border: 3px solid;
+    text-align: center;
+    overflow-wrap: break-word;
+    background-color: #E7F2F8;
+}
+
+th {
+    border: 2px solid;
+    background-color: #E7F2F8;
+}
+
+/*this is the ul that holds each taf... ul due to formatting issues*/
+.taf {
+    white-space: nowrap;
+}
+
+/*this is the ul that hold each metar*/
+/* .metar { */
+/* white-space: nowrap; */
+/* overflow: visible; */
+/* font-size: small; */
+/* max-width: fit-content; */
+/* } */
+
+.m {
+    border: none;
+    list-style-type: none;
+    margin: 0px 0px;
+    text-indent: -25px;
+    display: block;
+    white-space: nowrap;
+    width: 1100px;
+    max-width: 1100px;
+    /* min-width: 800px; */
+    font-size: 16px;
+    /* overflow: hidden; */
+}
+
+/*max width abv changed everything... now just need to figure out how to get the metar to stay within the box*/
+/*maybe overflow: hidden???*/
+/*maybe just smaller font size with overflow: hidden*/
+
+/*right now, looks like the tables are 1090 or 1033px wide... not sure why*/
+
+/*would really like all the table elements to be the same width*/
+/*add padding to the modal and adjust the output... delete unneeded elements*/
+
+/*below is done!!!*/
+/*white-space: nowrap seems to mess up margins in the container... need it though so that the metar texts are one-line*/
+/*need to figure out how to specify continer width*/
+
+.taf li {
+    border: none;
+    list-style-type: none;
+    margin: 0px 0px;
+
+}
+
+/*hanging indent for each taf*/
+.taf li:first-child {
+    text-indent: -25px;
+}
+
+
+/* .footer {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    background-color: #E7F2F8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-variant: small-caps;
+    vertical-align: middle;
+    border: 3px black solid;
+} */
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    /* background-color: #E7F2F8; */
+    vertical-align: middle;
+    border: none;
+}
+
+/*styling the reset button*/
+
+.footer button {
+    /* display: block; */
+    margin: auto;
+    width: 25%;
+    font-size: 20px;
+    border: 4px black solid;
+    background-color: #36454F;
+    color: whitesmoke;
+}
+
+.footer button:hover {
+    background-color: whitesmoke;
+    color: #36454F;
+    border: 4px black solid;
+    box-shadow: 5px 10px 15px 2px rgba(0, 0, 0, 0.2), 0 15px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer button:active {
+    background-color: #FFA384;
+    color: black;
+}
