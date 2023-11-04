@@ -1,4 +1,4 @@
-/*Copyright (c) 2023, Mike Schober*/
+/*Copyright (c) 2023 by Mike Schober*/
 
 'use strict';
 
