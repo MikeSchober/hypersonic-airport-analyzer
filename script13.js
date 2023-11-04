@@ -1,3 +1,5 @@
+/*Copyright (c) 2023, Mike Schober*/
+
 'use strict';
 
 //global variables...
