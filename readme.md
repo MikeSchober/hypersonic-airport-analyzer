@@ -13,7 +13,7 @@ The output includes the following:
 * airport closure timeframes
 * analysis of both METAR and TAF data including consideration of NOTAMs and airport infrastructure
 
-This is my first notable JavaScript project. All of the data processing and calculation logic is written in JavaScript (no external libraries or frameworks) and it uses a text file database on a node server for static airport data.
+This was my first notable JavaScript project. All of the data processing and calculation logic is written in JavaScript (no external libraries or frameworks) and it uses a text file database on a node server for static airport data.
 
 ## Screenshot
 ![output screenshot](https://github.com/Runningman47/hypersonic-airport-analyzer/blob/main/Screenshots/updated%20shots/OUTPUT1UPDATE.jpg)
