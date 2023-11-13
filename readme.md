@@ -1,7 +1,7 @@
 
 ## Hypersonic Airport Analyzer
 
-This web-based is an airport situation display application. 
+This is a web-based airport situation display application. 
 
 The user inputs weather and NOTAMs for all desired airports and the application provides an in-depth analysis of each referenced location. 
 
@@ -11,15 +11,15 @@ The output includes the following:
 * available approaches
 * headwind and crosswind components
 * airport closure timeframes
-* analysis of both METAR and TAF data
+* analysis of both METAR and TAF data including consideration of NOTAMs and airport infrastructure
 
 This is my first notable JavaScript project. All of the data processing and calculation logic is written in JavaScript (no external libraries or frameworks) and it uses a text file database on a node server for static airport data.
 
 ## Screenshot
-![output screenshot](Screenshots/updated shots/OUTPUT1UPDATE.jpg)
+![output screenshot](https://github.com/Runningman47/hypersonic-airport-analyzer/blob/main/Screenshots/updated%20shots/OUTPUT1UPDATE.jpg)
 
 ## Updates
-Although I have a lot of ideas for further development of this application, I have stopped working on it to develop other things. If there was commercial interest in it I would likely continue development.
+Although I have many ideas for further development of this application, I have stopped working on it to develop other things. If there was commercial interest in it I would likely continue development.
 
 ## Licensing
 Both Node.js and Express are licensed under the MIT license.
