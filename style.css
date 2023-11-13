@@ -252,22 +252,6 @@ section {
     color: black;
 }
 
-/* li h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-} */
-
-
-/* .total-output {
-    width: 800px;
-    background-color: #EFE7BC;
-    overflow-x: auto;
-    overflow-y: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.3), 0px 15px 28px 0px rgba(0, 0, 0, 0.3);
-
-} */
 
 
 table {
@@ -306,13 +290,6 @@ th {
     white-space: nowrap;
 }
 
-/*this is the ul that hold each metar*/
-/* .metar { */
-/* white-space: nowrap; */
-/* overflow: visible; */
-/* font-size: small; */
-/* max-width: fit-content; */
-/* } */
 
 .m {
     border: none;
@@ -328,18 +305,6 @@ th {
     /* overflow: hidden; */
 }
 
-/*max width abv changed everything... now just need to figure out how to get the metar to stay within the box*/
-/*maybe overflow: hidden???*/
-/*maybe just smaller font size with overflow: hidden*/
-
-/*right now, looks like the tables are 1090 or 1033px wide... not sure why*/
-
-/*would really like all the table elements to be the same width*/
-/*add padding to the modal and adjust the output... delete unneeded elements*/
-
-/*below is done!!!*/
-/*white-space: nowrap seems to mess up margins in the container... need it though so that the metar texts are one-line*/
-/*need to figure out how to specify continer width*/
 
 .taf li {
     border: none;
@@ -353,19 +318,6 @@ th {
     text-indent: -25px;
 }
 
-
-/* .footer {
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
-    height: 50px;
-    background-color: #E7F2F8;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 32px;
-    font-variant: small-caps;
-    vertical-align: middle;
-    border: 3px black solid;
-} */
 
 .footer {
     display: flex;
