@@ -18,8 +18,10 @@ This is my first notable JavaScript project. All of the data processing and calc
 ## Screenshot
 ![output screenshot](https://github.com/Runningman47/hypersonic-airport-analyzer/blob/main/Screenshots/updated%20shots/OUTPUT1UPDATE.jpg)
 
+This screenshot shows the airport analysis output. The timeline data reflects the airport's TAF analysis and a user would click on an individual METAR to display a textual analysis of the displayed observation.
+
 ## Updates
-Although I have many ideas for further development of this application, I have stopped working on it to develop other things. If there was commercial interest in it I would likely continue development.
+Although I have many ideas for further development of this application, I have stopped working on it to develop other things. This was my first notable JavaScript project though and I learned a ton from it!
 
 ## Licensing
 Both Node.js and Express are licensed under the MIT license.
