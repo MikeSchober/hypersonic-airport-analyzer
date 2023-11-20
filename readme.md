@@ -28,4 +28,6 @@ Both Node.js and Express are licensed under the MIT license.
 
 The settings icon seen in the screenshot is from ionicons (https://ionic.io/ionicons) and it is also licensed under the MIT license.
 
+All of the above-mentioned licenses can be found in the license file in this repo.
+
 Copyright (c) 2023 Mike Schober
