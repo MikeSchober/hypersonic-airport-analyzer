@@ -16,7 +16,7 @@ The output includes the following:
 This was my first notable JavaScript project. All of the data processing and calculation logic is written in JavaScript (no external libraries or frameworks) and it uses a text file database on a node server for static airport data.
 
 ## Screenshot
-![output screenshot](https://github.com/Runningman47/hypersonic-airport-analyzer/blob/main/Screenshots/updated%20shots/OUTPUT1UPDATE.jpg)
+![output screenshot](https://github.com/MikeSchober/hypersonic-airport-analyzer/blob/main/Screenshots/updated%20shots/OUTPUT1UPDATE.jpg)
 
 This screenshot shows the airport analysis output. The timeline data reflects the airport's TAF analysis. A user would click on an individual METAR to display a textual analysis of the displayed observation.
 
